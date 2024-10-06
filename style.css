@@ -1,0 +1,148 @@
+/* INDEX CSS */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: auto;
+    background-color: #FAF7F0;
+}
+hr{
+    background-color: #B17457;
+    height: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: #4A4947;
+}
+.nav-container{
+    background-color: #FAF7F0;
+    width: 15%;
+    position: fixed;
+    height: 100vh;
+    border: 0px solid #B17457;
+    border-width: 0px 1px 0px 0px;
+}
+.nav-container-header{
+    text-align: center;
+    background-color: #4A4947;
+    position: relative;
+    padding: 10px 10px 5px 10px;
+    margin: 0;
+}
+.nav-container-header h2{
+    margin: 0;
+    padding: 10px 0px;
+}
+.nav-container-menu{
+    background-color: #FAF7F0;
+    position: relative;
+    color: #4A4947;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-container-menu div{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #B17457;
+    border-width: 0px 0px 1px 0px;
+}
+.footer{
+    background-color: #4A4947;
+    position: relative;
+    color: #FAF7F0;
+    margin: 0;
+    padding: 0;
+}
+.body-container{
+    background-color: #FAF7F0;
+    width: 85%;
+    position: absolute;
+    left: 15%;
+    height: 100vh;
+    z-index: -1;
+    color: #4A4947;
+}
+.intro-container{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    position: relative;
+    color: #4A4947;
+    height: 30vh;
+}
+.intro-container p{
+    text-align: justify;
+}
+.skill-container1{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 20%;
+}
+.skill-container1 p{
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.skill-container1 ul{
+    margin: 0;
+    padding: 0;
+}
+.skill-container2{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: -368px;
+}
+.skill-container2 p{
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.skill-container2 ul{
+    margin: 0;
+    padding: 0;
+}
+/* INFORMATION PAGE CSS */
+.person-info-container{
+    background-color: #FAF7F0;
+    width: 85%;
+    position: absolute;
+    left: 15%;
+    height: 100%;
+    z-index: -1;
+    color: #4A4947;
+}
+.person-info-container > div{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.contact-container h3, h4, p{
+    text-align: center;
+    margin: 10px;
+}
+/* EXPERIENCE PAGE CSS */
+.experience-container h4{
+    text-align: left;
+    font-weight: 400;
+    margin: 0;
+}
+.experience-container p{
+    padding: 0 20px;
+    text-align: justify;
+}
+/* PORTFOLIO PAGE CSS */
+
+.portfolio-container{
+    text-align: center;
+}
+.portfolio-container img{
+    border: 1px solid #B17457;
+    padding: 20px;
+}
